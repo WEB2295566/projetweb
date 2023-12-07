@@ -1,0 +1,44 @@
+/**********************/
+/* filtre */
+/**********************/
+
+.filtre {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.filtre > section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.filtre a {
+  color: black;
+}
+.filtre h1 {
+  padding-bottom: 16px;
+}
+.filtre h2 {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.filtre-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filtre-title {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-list-grid {
+}
+@media only screen and (max-width: 600px) {
+  .filtre {
+    width: 100%;
+  }
+}

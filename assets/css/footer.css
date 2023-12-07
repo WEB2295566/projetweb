@@ -1,0 +1,46 @@
+/**************************/
+/* FOOTER */
+/**************************/
+
+.main-nav-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3.6rem;
+}
+.main-nav-footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-nav-footer > div a {
+  text-decoration: none;
+  color: #232324;
+}
+.main-nav-footer > div a:hover {
+  text-decoration: underline;
+}
+
+/**********************/
+/* SOCIAL MEDIA */
+/**********************/
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+  padding: 2.4rem 0 8.4rem;
+}
+
+.socialMedia svg:hover {
+  opacity: 100%;
+}
+.socialMedia svg {
+  opacity: 75%;
+}
+/* @media only screen and (max-width: 600px) {
+  .socialMedia {
+  }
+} */

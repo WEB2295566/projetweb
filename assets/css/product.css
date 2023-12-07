@@ -1,0 +1,133 @@
+/**********************/
+/* PRODUCT */
+/**********************/
+.product-container {
+  padding: 2.4rem;
+  margin: 0 96px;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8rem;
+  max-width: 118rem;
+  padding: 4rem;
+}
+
+.product img {
+  max-width: 80%;
+}
+
+.product-img {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-image {
+  cursor: pointer;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+
+.thumbnail {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+/** rightside content */
+
+.product-rightside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+.product-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.plus-info {
+  display: block;
+  color: #555;
+}
+.product-info {
+  line-height: 1.6;
+}
+
+.margin-right-sm {
+  margin-right: 4rem;
+}
+
+.margin-top-sm {
+  margin-top: 4rem;
+}
+.btn {
+  text-decoration: none;
+}
+.product-btn {
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: 16px;
+}
+
+/**********************/
+/* SIMILAR PRODUCT */
+/**********************/
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-similar {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25px, 1fr));
+  grid-column-gap: 4.8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 9.6rem;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: centers;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.product-similar-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 6.4rem 1.6rem 3.2rem;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details a {
+  text-decoration: none;
+  color: #555;
+}
+
+.product-card-img {
+  margin-bottom: 2rem;
+  object-fit: cover;
+
+  height: 80%;
+}

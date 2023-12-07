@@ -1,0 +1,36 @@
+:root {
+  --texte-xxs: 1.4rem;
+  --texte-xs: 1.6rem;
+  --texte-sm: 1.8rem;
+  --texte-mxs: 2rem;
+  --texte-ms: 2.4rem;
+  --texte-md: 3rem;
+  --texte-mg: 3.6rem;
+  --texte-lg: 5.2rem;
+
+  --font-weight-s: 400;
+  --font-weight-m: 500;
+  --font-weight-mg: 600;
+  --font-weight-lg: 700;
+
+  --espace-xxs: 1.2rem;
+  --espace-xs: 1.6rem;
+  --espace-sm: 2rem;
+  --espace-sgm: 2.4rem;
+  --espace-md: 3.2rem;
+  --espace-lg: 4.8rem;
+  --espace-xl: 6.4rem;
+  --espace-xxl: 8rem;
+  --espace-xxl: 8rem;
+  --espace-xxxl: 9.8rem;
+  --espace-4xl: 12.8rem;
+
+  --couleur-primary: #0074b7;
+  --couleur-baby-blue: #bfd7ed;
+  --couleur-white: #fff;
+  --couleur-grey: #555;
+  --couleur-black: #333;
+
+  --ombre: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  --border-radius: 5px;
+}
