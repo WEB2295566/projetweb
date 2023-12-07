@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/queries.css">
   <script src="/assets/script/script.js"></script>
-  <title>encheres</title>
+  <title>Stampee Catalogue</title>
 </head>
 
 <body>
@@ -37,11 +37,140 @@
     </button>
   </header>
   <main>
-    <h3 class="titre-enchere">- Mes encheres -</h3>
     <div class="container-catalogue">
+      <aside class="filtre">
+        <div class="filtre-heading">
+          <div class="filtre-title">
+            <ion-icon name="filter-outline"></ion-icon>
+            <h1>Filtre</h1>
+          </div>
+
+        </div>
+        <section>
+          <h2>Trending</h2>
+          <div>
+            <a href="#">Meilleurs ventes</a>
+            <a href="#">Nouveaux Timbres</a>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <h2>Collections</h2>
+          <div>
+            <a href="#">Collection du lord</a>
+            <a href="#">Collection Rare</a>
+            <a href="#">Collection internationnale</a>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <h2>Etat des timbres</h2>
+          <div>
+            <div>
+              <input type="checkbox" id="checkbox-parfait" name="scales" aria-label="etat" checked>
+              <label id="label-parfait">Parfait</label>
+            </div>
+            <div>
+              <input type="checkbox" id="checkbox-nouveau" name="scales" aria-label="nouveau">
+              <label id="label-nouveau">Nouveau</label>
+            </div>
+            <div>
+              <input type="checkbox" id="checkbox-use" name="scales" aria-label="use">
+              <label id="label-use">Usé</label>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <section>
+          <h2>Prix</h2>
+          <div class="prix">
+            <input type="text" name="prix-min" id="prix-min-input" placeholder="Min">
+            <span>à</span>
+            <input type="text" name="prix-max" id="prix-min-max" placeholder="Max">
+          </div>
+        </section>
+
+      </aside>
       <section class="galerie">
+        <div class="carte">
+          <img class="img-carte" src="/assets/img/timbre/timbre_16.webp" alt="carte-timbre">
+          <div class="carte-contenu">
+            <h3 class="card-title">1959 Australian Stamp</h3>
+            <p><small>ID: </small><strong>12098829</strong></p>
+            <p><small>Date: </small><strong>octobre 2023</strong></p>
+            <p><small>Etat: </small><strong>usé</strong></p>
+          </div>
+          <div class="info-carte">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+            <p><small>stampbuy | Temps restant: 6h33m</small></p>
+          </div>
+        </div>
+        <div class="carte">
+          <img class="img-carte" src="/assets/img/timbre/timbre_14.webp" alt="carte-timbre">
+          <div class="carte-contenu">
+            <h3 class="card-title">Falkland Islands' 1962 </h3>
+            <p><small>ID: </small><strong>80098829</strong></p>
+            <p><small>Date: </small><strong>decembre 2023</strong></p>
+            <p><small>Etat: </small><strong>neuf</strong></p>
+          </div>
 
-
+          <div class="info-carte">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+            <p><small>stampbuy | Temps restant: 6h33m</small></p>
+          </div>
+        </div>
+        <div class="carte">
+          <img class="img-carte" src="/assets/img/timbre/timbre_17.webp" alt="carte-timbre">
+          <div class="carte-contenu">
+            <h3 class="card-title">Falkland Islands' 1962 </h3>
+            <p><small>ID: </small><strong>12098829</strong></p>
+            <p><small>Date: </small><strong>octobre 2023</strong></p>
+            <p><small>Etat: </small><strong>usé</strong></p>
+          </div>
+          <div class="info-carte">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+            <p><small>stampbuy | Temps restant: 6h33m</small></p>
+          </div>
+        </div>
+        <div class="carte">
+          <img class="img-carte" src="/assets/img/timbre/timbre_19.webp" alt="carte-timbre">
+          <div class="carte-contenu">
+            <h3 class="card-title">1959 Australian Stamp</h3>
+            <p><small>ID: </small><strong>12098829</strong></p>
+            <p><small>Date: </small><strong>octobre 2023</strong></p>
+            <p><small>Etat: </small><strong>usé</strong></p>
+          </div>
+          <div class="info-carte">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+            <p><small>stampbuy | Temps restant: 6h33m</small></p>
+          </div>
+        </div>
+        <div class="carte">
+          <img class="img-carte" src="/assets/img/timbre/timbre_18.webp" alt="carte-timbre">
+          <div class="carte-contenu">
+            <h3 class="card-title">1959 Australian Stamp</h3>
+            <p><small>ID: </small><strong>12098829</strong></p>
+            <p><small>Date: </small><strong>octobre 2023</strong></p>
+            <p><small>Etat: </small><strong>usé</strong></p>
+          </div>
+          <div class="info-carte">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+            <p><small>stampbuy | Temps restant: 6h33m</small></p>
+          </div>
+        </div>
+        <div class="carte">
+          <img class="img-carte" src="/assets/img/timbre/timbre_20.webp" alt="carte-timbre">
+          <div class="carte-contenu">
+            <h3 class="card-title">1959 Australian Stamp</h3>
+            <p><small>ID: </small><strong>12098829</strong></p>
+            <p><small>Date: </small><strong>octobre 2023</strong></p>
+            <p><small>Etat: </small><strong>usé</strong></p>
+          </div>
+          <div class="info-carte">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+            <p><small>stampbuy | Temps restant: 6h33m</small></p>
+          </div>
+        </div>
         <div class="carte">
           <img class="img-carte" src="/assets/img/timbre/timbre_21.webp" alt="carte-timbre">
           <div class="carte-contenu">
